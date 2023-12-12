@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-// import ContactTest from "contactTest/ContactTest";
 
 const RemoteContactApp = lazy(() => import("contactTest/ContactTest"));
 const RemoteMailApp = lazy(() => import("mailTest/InternalMail"));
@@ -9,13 +9,21 @@ const RemoteCalenderApp = lazy(() => import("calenderTest/NepaliCalender"));
 function App() {
   return (
     <>
-      {/* <h1>Main App</h1> */}
-      {/* <ContactTest /> */}
-      <Suspense fallback={<div>Loading</div>}>
-        <RemoteContactApp />
-        <RemoteMailApp />
-        <RemoteCalenderApp />
-      </Suspense>
+      <Routes>
+        <Route
+          path=""
+          element={
+            <Suspense fallback={<div>Loading</div>}>
+              <RemoteContactApp />
+              <RemoteMailApp />
+              <RemoteCalenderApp />
+            </Suspense>
+          }
+        />
+        <Route path="/mail" element={<RemoteMailApp />} />
+        <Route path="/calender" element={<RemoteCalenderApp />} />
+        <Route path="/contact" element={<RemoteContactApp />} />
+      </Routes>
     </>
   );
 }
