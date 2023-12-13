@@ -1,0 +1,88 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.3",
+  "deps": {
+    "@originjs/vite-plugin-federation": "^1.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "vite": "^5.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".eslintrc.cjs",
+        "hash": "2882042679431938213"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13046175384202504187"
+      },
+      {
+        "file": "README.md",
+        "hash": "6882940726608198539"
+      },
+      {
+        "file": "__tests__/calender.test.js",
+        "hash": "14990320648167195228"
+      },
+      {
+        "file": "index.html",
+        "hash": "7575831410758623410"
+      },
+      {
+        "file": "lib/calender.js",
+        "hash": "15518673643215417286"
+      },
+      {
+        "file": "package.json",
+        "hash": "10359908544228805127"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "9498557290330491153"
+      },
+      {
+        "file": "public/vite.svg",
+        "hash": "16046085400642193116"
+      },
+      {
+        "file": "src/App.css",
+        "hash": "3739391659270974612"
+      },
+      {
+        "file": "src/App.jsx",
+        "hash": "5498086089785589086"
+      },
+      {
+        "file": "src/assets/react.svg",
+        "hash": "16069471864800376455"
+      },
+      {
+        "file": "src/components/NepaliCalender.jsx",
+        "hash": "13875258564899917738"
+      },
+      {
+        "file": "src/index.css",
+        "hash": "957896817323665666"
+      },
+      {
+        "file": "src/main.jsx",
+        "hash": "13625659006721401740"
+      },
+      {
+        "file": "vite.config.js",
+        "hash": "13081196480632597503"
+      }
+    ]
+  }
+}

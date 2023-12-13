@@ -1,8 +1,11 @@
 {
   "name": "calender",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "workspaces": [
+    "./calender"
+  ],
   "scripts": {
     "dev": "vite --port 9002",
     "build": "vite build",
@@ -23,5 +26,27 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "vite": "^5.0.0"
+  },
+  "description": "> TODO: description",
+  "keywords": [
+    "calender"
+  ],
+  "author": "Bishow Thapa <bishowthapa33@gmail.com>",
+  "homepage": "https://github.com/Bishow-Thapa/mono-repo/tree/main/packages/calender#readme",
+  "license": "ISC",
+  "main": "lib/calender.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bishow-Thapa/mono-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bishow-Thapa/mono-repo/issues"
   }
 }

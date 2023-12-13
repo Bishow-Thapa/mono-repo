@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a mono-repo app",
   "main": "index.js",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Bishow-Thapa/mono-repo/issues"
   },
-  "homepage": "https://github.com/Bishow-Thapa/mono-repo#readme"
+  "homepage": "https://github.com/Bishow-Thapa/mono-repo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.0.0"
+  }
 }
