@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "builds": [
+    {
+      "src": "/packages/hr",
+      "use": "@vercel/node",
+      "config": {
+        "framework": "@vercel/node"
+      }
+    },
+    {
+      "src": "/packages/mail",
+      "use": "@vercel/node",
+      "config": {
+        "framework": "@vercel/node"
+      }
+    },
+    {
+      "src": "/packages/contact",
+      "use": "@vercel/node",
+      "config": {
+        "framework": "@vercel/node"
+      }
+    },
+    {
+      "src": "/shared-library/*",
+      "use": "@vercel/node",
+      "config": {
+        "framework": "@vercel/node"
+      }
+    }
+  ]
+}

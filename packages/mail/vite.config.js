@@ -19,5 +19,12 @@ export default defineConfig({
     target: "esnext",
     minify: false,
     cssCodeSplit: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          mail: ["mail"],
+        },
+      },
+    },
   },
 });
