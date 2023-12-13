@@ -1,5 +1,11 @@
 # mono-repo
 
+
+
+## Lerna
+
+![lerna](https://semaphoreci.com/wp-content/uploads/2021/06/lerna-workflow-1056x395.webp)
+
 ### Installation
 ```
 $ npm i -g lerna
@@ -15,6 +21,16 @@ Lerna’s bootstrap command installs package dependencies and links the packages
 Before using Lerna you need to decide on a versioning scheme for your repository. Lerna supports `two modes`:
 - Fixed mode
 - Independent mode
+
+```
+lerna.json
+{
+  "version": "independent",
+  "packages": ["packages/*"],
+  "npmClient": "pnpm"
+}
+
+```
 
 
 ---
