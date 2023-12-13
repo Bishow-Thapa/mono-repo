@@ -16,6 +16,16 @@ Before using Lerna you need to decide on a versioning scheme for your repository
 - Fixed mode
 - Independent mode
 
+```
+lerna.json
+{
+  "version": "independent",
+  "packages": ["packages/*"],
+  "npmClient": "pnpm"
+}
+
+```
+
 
 ---
 #### Reference 
