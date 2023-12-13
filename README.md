@@ -1,7 +1,11 @@
 # mono-repo
 
 ### Installation
-- `$ npm i -g lerna`
+```
+$ npm i -g lerna
+$ mkdir lerna-demo
+$ cd lerna-demo
+```
 
 
 Lerna’s bootstrap command installs package dependencies and links the packages together
