@@ -1,5 +1,11 @@
 # mono-repo
 
+
+
+## Lerna
+
+![lerna](https://semaphoreci.com/wp-content/uploads/2021/06/lerna-workflow-1056x395.webp)
+
 ### Installation
 ```
 $ npm i -g lerna
