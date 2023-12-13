@@ -32,6 +32,13 @@ lerna.json
 
 ```
 
+### Commands
+```
+$ lerna list or ls
+$ lerna create <package-name>
+
+<pacakage-name> means your app.
+```
 
 ---
 #### Reference 
