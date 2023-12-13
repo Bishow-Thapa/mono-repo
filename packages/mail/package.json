@@ -27,5 +27,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "vite": "^5.0.0"
-  }
+  },
+  "gitHead": "0b768df3b3291e41e578e6c1bd4e9ab8ef54478d"
 }

@@ -6,6 +6,9 @@ const RemoteContactApp = lazy(() => import("contactTest/ContactTest"));
 const RemoteMailApp = lazy(() => import("mailTest/InternalMail"));
 const RemoteCalenderApp = lazy(() => import("calenderTest/NepaliCalender"));
 
+const DesignSystem = lazy(() => import("@mono-repo/designsystem"));
+// import designSystem from '';
+
 function App() {
   return (
     <>
@@ -17,6 +20,7 @@ function App() {
               <RemoteContactApp />
               <RemoteMailApp />
               <RemoteCalenderApp />
+              <DesignSystem />
             </Suspense>
           }
         />

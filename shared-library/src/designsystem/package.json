@@ -1,0 +1,13 @@
+{
+  "name": "@dhadharey/testbt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bishow Thapa",
+  "license": "ISC",
+  "registry": "https://registry.npmjs.org/"
+}

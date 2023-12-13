@@ -22,7 +22,8 @@
     "concurrently": "^8.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1"
+    "react-router-dom": "^6.20.1",
+    "@dhadharey/testbt": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
@@ -36,5 +37,6 @@
     "vite-plugin-federation": "^0.0.1",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "gitHead": "0b768df3b3291e41e578e6c1bd4e9ab8ef54478d"
 }
