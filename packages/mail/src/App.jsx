@@ -1,13 +1,11 @@
-import "./App.css";
-import InternalMail from "./components/InternalMail";
-import { DatePicker } from "antd";
+import Index from "./components/Index";
+// import "./App.css";
 
 function App() {
   return (
-    <>
-      <InternalMail />
-      <DatePicker />
-    </>
+    <div>
+      <Index />
+    </div>
   );
 }
 

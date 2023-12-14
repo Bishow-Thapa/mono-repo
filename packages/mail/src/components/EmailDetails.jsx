@@ -1,7 +1,13 @@
-export default function EmailList() {
+export default function EmailDetails() {
+  const width = "calc(100% - 400px)";
   return (
-    <div style={{ height: "100vh", width: "400px", background: "#FFFFFF" }}>
-      <h2 style={{ color: "#000000" }}>MailBox</h2>
+    <div
+      style={{
+        height: "100vh",
+        width: width,
+      }}
+    >
+      <h2> Content</h2>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industrys standard dummy text ever

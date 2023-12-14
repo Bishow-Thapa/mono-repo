@@ -10,7 +10,10 @@ export default defineConfig({
       name: "mailTest",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: { "./InternalMail": "./src/components/InternalMail" },
+      exposes: {
+        // "./InternalMail": "./src/components/InternalMail",
+        "./Index": "./src/components/Index",
+      },
       shared: ["react", "react-dom"],
     }),
   ],
