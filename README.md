@@ -1,4 +1,3 @@
 # mono-repo
 
 ## Installation Guide
-.
